@@ -1,0 +1,254 @@
+create table users
+(
+    id           SERIAL PRIMARY KEY,
+    login        VARCHAR(50),
+    salary       INT,
+    age          INT,
+    working_year DATE,
+    description  VARCHAR(50)
+);
+insert into users (login, salary, age, working_year, description)
+values ('cchaloner0@shinystat.com', 79, 20, '2022-10-13', '');
+insert into users (login, salary, age, working_year, description)
+values ('cbartholomieu1@wikia.com', 33, 43, '2022-03-26', '');
+insert into users (login, salary, age, working_year, description)
+values ('chunnable2@bloglines.com', 58, 39, '2022-07-13', '');
+insert into users (login, salary, age, working_year, description)
+values ('btrembley3@omniture.com', 21, 99, '2022-06-29', '');
+insert into users (login, salary, age, working_year, description)
+values ('shighman4@ft.com', 69, 27, '2022-03-25', '');
+insert into users (login, salary, age, working_year, description)
+values ('ebraham5@foxnews.com', 54, 57, '2022-10-03', '');
+insert into users (login, salary, age, working_year, description)
+values ('kmawhinney6@cbslocal.com', 48, 44, '2022-02-28', '');
+insert into users (login, salary, age, working_year, description)
+values ('vhugill7@arstechnica.com', 15, 90, '2022-06-22', '');
+insert into users (login, salary, age, working_year, description)
+values ('kbarg8@europa.eu', 76, 22, '2022-07-10', '');
+insert into users (login, salary, age, working_year, description)
+values ('lbrockbank9@imageshack.us', 97, 70, '2022-08-26', '');
+insert into users (login, salary, age, working_year, description)
+values ('hgravesona@abc.net.au', 99, 54, '2022-08-25', '');
+insert into users (login, salary, age, working_year, description)
+values ('lspeareb@skype.com', 85, 5, '2022-11-15', '');
+insert into users (login, salary, age, working_year, description)
+values ('sbrummittc@wiley.com', 92, 95, '2022-04-21', '');
+insert into users (login, salary, age, working_year, description)
+values ('gdenneyd@flickr.com', 99, 11, '2022-12-18', '');
+insert into users (login, salary, age, working_year, description)
+values ('dantoniake@irs.gov', 31, 19, '2022-01-17', '');
+insert into users (login, salary, age, working_year, description)
+values ('sglendzaf@pbs.org', 82, 53, '2022-05-18', '');
+insert into users (login, salary, age, working_year, description)
+values ('ctrynorg@about.com', 90, 67, '2022-05-02', '');
+insert into users (login, salary, age, working_year, description)
+values ('gbreeh@goo.gl', 49, 63, '2022-06-24', '');
+insert into users (login, salary, age, working_year, description)
+values ('pmackeyi@businessinsider.com', 88, 86, '2022-11-17', '');
+insert into users (login, salary, age, working_year, description)
+values ('bmcrobbj@dion.ne.jp', 18, 26, '2022-01-23', '');
+insert into users (login, salary, age, working_year, description)
+values ('akilligrewk@bbb.org', 81, 62, '2022-07-03', '');
+insert into users (login, salary, age, working_year, description)
+values ('rbessoml@huffingtonpost.com', 36, 82, '2022-01-11', '');
+insert into users (login, salary, age, working_year, description)
+values ('hfennessym@merriam-webster.com', 85, 12, '2022-07-22', '');
+insert into users (login, salary, age, working_year, description)
+values ('jproctorn@reverbnation.com', 50, 2, '2022-02-01', '');
+insert into users (login, salary, age, working_year, description)
+values ('kcalwayo@soundcloud.com', 67, 13, '2022-08-03', '');
+insert into users (login, salary, age, working_year, description)
+values ('jspadeckp@go.com', 83, 4, '2022-09-16', '');
+insert into users (login, salary, age, working_year, description)
+values ('efarnonq@odnoklassniki.ru', 18, 82, '2022-03-27', '');
+insert into users (login, salary, age, working_year, description)
+values ('nporrittr@admin.ch', 99, 11, '2022-09-30', '');
+insert into users (login, salary, age, working_year, description)
+values ('gmcpaikes@amazonaws.com', 51, 58, '2022-02-02', '');
+insert into users (login, salary, age, working_year, description)
+values ('beltont@narod.ru', 25, 57, '2023-01-04', '');
+insert into users (login, salary, age, working_year, description)
+values ('agodfreeu@ovh.net', 74, 68, '2022-04-02', '');
+insert into users (login, salary, age, working_year, description)
+values ('ftrewettv@nps.gov', 71, 54, '2022-11-25', '');
+insert into users (login, salary, age, working_year, description)
+values ('bbeldersonw@omniture.com', 32, 80, '2022-12-06', '');
+insert into users (login, salary, age, working_year, description)
+values ('nrollingsx@state.gov', 7, 15, '2022-06-12', '');
+insert into users (login, salary, age, working_year, description)
+values ('lmcmurthyy@wsj.com', 17, 47, '2022-07-18', '');
+insert into users (login, salary, age, working_year, description)
+values ('nvaughtonz@sourceforge.net', 59, 90, '2022-11-01', '');
+insert into users (login, salary, age, working_year, description)
+values ('lsegge10@liveinternet.ru', 88, 43, '2023-01-07', '');
+insert into users (login, salary, age, working_year, description)
+values ('cpiatek11@vimeo.com', 62, 85, '2022-09-12', '');
+insert into users (login, salary, age, working_year, description)
+values ('thorsley12@altervista.org', 60, 80, '2022-07-08', '');
+insert into users (login, salary, age, working_year, description)
+values ('thalfhead13@cmu.edu', 88, 39, '2022-02-10', '');
+insert into users (login, salary, age, working_year, description)
+values ('rgillise14@msu.edu', 41, 41, '2022-03-21', '');
+insert into users (login, salary, age, working_year, description)
+values ('kmanna15@apple.com', 43, 73, '2022-11-05', '');
+insert into users (login, salary, age, working_year, description)
+values ('amohammed16@ebay.com', 47, 82, '2022-05-08', '');
+insert into users (login, salary, age, working_year, description)
+values ('cwillerton17@nifty.com', 99, 3, '2022-10-27', '');
+insert into users (login, salary, age, working_year, description)
+values ('dedgin18@yelp.com', 5, 69, '2022-12-10', '');
+insert into users (login, salary, age, working_year, description)
+values ('sdiano19@issuu.com', 12, 29, '2022-02-14', '');
+insert into users (login, salary, age, working_year, description)
+values ('cgadsdon1a@boston.com', 64, 48, '2022-07-13', '');
+insert into users (login, salary, age, working_year, description)
+values ('pmcbeth1b@flavors.me', 70, 33, '2022-05-20', '');
+insert into users (login, salary, age, working_year, description)
+values ('aelmhurst1c@sbwire.com', 66, 23, '2022-11-22', '');
+insert into users (login, salary, age, working_year, description)
+values ('ebolsteridge1d@bing.com', 46, 69, '2022-10-26', '');
+insert into users (login, salary, age, working_year, description)
+values ('qmaliffe1e@usgs.gov', 64, 93, '2022-06-30', '');
+insert into users (login, salary, age, working_year, description)
+values ('bjerrard1f@vimeo.com', 63, 23, '2022-11-10', '');
+insert into users (login, salary, age, working_year, description)
+values ('rrapson1g@oracle.com', 37, 20, '2022-12-19', '');
+insert into users (login, salary, age, working_year, description)
+values ('cpassman1h@blogspot.com', 25, 37, '2022-11-11', '');
+insert into users (login, salary, age, working_year, description)
+values ('rruppertz1i@networksolutions.com', 78, 54, '2022-06-02', '');
+insert into users (login, salary, age, working_year, description)
+values ('spickrell1j@taobao.com', 34, 26, '2022-01-25', '');
+insert into users (login, salary, age, working_year, description)
+values ('atuffley1k@mac.com', 31, 84, '2022-04-16', '');
+insert into users (login, salary, age, working_year, description)
+values ('ewiersma1l@1688.com', 62, 12, '2022-06-25', '');
+insert into users (login, salary, age, working_year, description)
+values ('amucci1m@goodreads.com', 35, 73, '2022-10-23', '');
+insert into users (login, salary, age, working_year, description)
+values ('ldilrew1n@feedburner.com', 72, 60, '2022-09-06', '');
+insert into users (login, salary, age, working_year, description)
+values ('tdederich1o@spotify.com', 41, 45, '2022-04-05', '');
+insert into users (login, salary, age, working_year, description)
+values ('pdinkin1p@pagesperso-orange.fr', 82, 49, '2022-03-27', '');
+insert into users (login, salary, age, working_year, description)
+values ('srosser1q@walmart.com', 93, 98, '2022-04-16', '');
+insert into users (login, salary, age, working_year, description)
+values ('cstabbins1r@nasa.gov', 62, 94, '2022-10-08', '');
+insert into users (login, salary, age, working_year, description)
+values ('smatschke1s@cloudflare.com', 12, 69, '2022-12-10', '');
+insert into users (login, salary, age, working_year, description)
+values ('sduckerin1t@mtv.com', 95, 39, '2022-12-05', '');
+insert into users (login, salary, age, working_year, description)
+values ('gmoughtin1u@who.int', 98, 54, '2022-12-15', '');
+insert into users (login, salary, age, working_year, description)
+values ('gbarrar1v@bloglines.com', 11, 52, '2022-11-25', '');
+insert into users (login, salary, age, working_year, description)
+values ('qblench1w@fc2.com', 95, 74, '2022-01-17', '');
+insert into users (login, salary, age, working_year, description)
+values ('jrains1x@blogs.com', 27, 62, '2022-02-21', '');
+insert into users (login, salary, age, working_year, description)
+values ('zparrish1y@google.com.au', 29, 75, '2022-05-25', '');
+insert into users (login, salary, age, working_year, description)
+values ('mmckune1z@bravesites.com', 53, 78, '2022-04-14', '');
+insert into users (login, salary, age, working_year, description)
+values ('cduckinfield20@senate.gov', 14, 61, '2022-12-12', '');
+insert into users (login, salary, age, working_year, description)
+values ('cgummie21@samsung.com', 95, 47, '2022-02-08', '');
+insert into users (login, salary, age, working_year, description)
+values ('rlemonby22@dailymail.co.uk', 82, 10, '2022-11-30', '');
+insert into users (login, salary, age, working_year, description)
+values ('rphilbin23@yellowbook.com', 47, 4, '2022-02-20', '');
+insert into users (login, salary, age, working_year, description)
+values ('jschelle24@hugedomains.com', 70, 61, '2022-03-22', '');
+insert into users (login, salary, age, working_year, description)
+values ('sbesson25@privacy.gov.au', 75, 3, '2022-03-24', '');
+insert into users (login, salary, age, working_year, description)
+values ('evamplers26@angelfire.com', 49, 97, '2022-12-16', '');
+insert into users (login, salary, age, working_year, description)
+values ('hshurrock27@admin.ch', 88, 78, '2022-07-10', '');
+insert into users (login, salary, age, working_year, description)
+values ('rmcminn28@opera.com', 72, 14, '2022-03-08', '');
+insert into users (login, salary, age, working_year, description)
+values ('jjouen29@businessweek.com', 85, 46, '2022-03-31', '');
+insert into users (login, salary, age, working_year, description)
+values ('jjakubovics2a@wunderground.com', 5, 9, '2022-02-14', '');
+insert into users (login, salary, age, working_year, description)
+values ('jjewise2b@cbslocal.com', 93, 90, '2022-06-26', '');
+insert into users (login, salary, age, working_year, description)
+values ('nfrear2c@abc.net.au', 23, 8, '2022-11-25', '');
+insert into users (login, salary, age, working_year, description)
+values ('ebeadles2d@sfgate.com', 44, 42, '2022-01-20', '');
+insert into users (login, salary, age, working_year, description)
+values ('awaterman2e@51.la', 2, 16, '2022-05-18', '');
+insert into users (login, salary, age, working_year, description)
+values ('krosone2f@cdbaby.com', 51, 40, '2022-09-02', '');
+insert into users (login, salary, age, working_year, description)
+values ('mhalversen2g@oracle.com', 1, 21, '2022-02-15', '');
+insert into users (login, salary, age, working_year, description)
+values ('hkikke2h@wikipedia.org', 35, 78, '2022-09-14', '');
+insert into users (login, salary, age, working_year, description)
+values ('vdrissell2i@google.cn', 9, 77, '2022-11-21', '');
+insert into users (login, salary, age, working_year, description)
+values ('cosesnane2j@slashdot.org', 74, 36, '2022-05-29', '');
+insert into users (login, salary, age, working_year, description)
+values ('cbruckmann2k@statcounter.com', 75, 18, '2022-11-15', '');
+insert into users (login, salary, age, working_year, description)
+values ('cchantree2l@google.com.hk', 78, 14, '2022-06-09', '');
+insert into users (login, salary, age, working_year, description)
+values ('ebrambley2m@usatoday.com', 89, 6, '2022-11-22', '');
+insert into users (login, salary, age, working_year, description)
+values ('ccasino2n@archive.org', 98, 13, '2022-09-19', '');
+insert into users (login, salary, age, working_year, description)
+values ('tcrafter2o@diigo.com', 65, 62, '2023-01-03', '');
+insert into users (login, salary, age, working_year, description)
+values ('bmattei2p@amazon.co.jp', 52, 95, '2022-08-30', '');
+insert into users (login, salary, age, working_year, description)
+values ('jglasscock2q@ifeng.com', 72, 8, '2022-07-08', '');
+insert into users (login, salary, age, working_year, description)
+values ('kgercken2r@ucoz.com', 9, 29, '2022-12-06', '');
+
+-- Задачи для java8
+--
+-- Создать таблицу "users",таблица users имеет поля id, login, salary, age, working_year, description (и другие при необходимости).
+--
+-- Выберите из таблицы users записи с id равным 1, 2, 3, 5, 14.
+--
+select * from users where id in(1, 2, 3, 5, 14);
+
+-- Выберите из таблицы users записи с login равным 'google.com', 'facebook.com', 'gmail.com'.
+--
+select * from users where login in('google.com', 'facebook.com', 'gmail.com');
+
+-- Выберите из таблицы users записи с id равным 1, 2, 3, 7, 9, и логином, равным 'user', 'admin', 'house' и зарплатой больше 3500.
+--
+select * from users where id in (1,2,3,7,9) and login in ('user', 'admin', 'house') and salary > 3500;
+
+-- Выберите из таблицы users записи c id от 3 до 10 и зарплатой от 3000 до 5000.
+--
+select * from users where id between 3 and 20 and salary between 3000 and 5000;
+
+-- Выберите из таблицы users все записи так, чтобы вместо id было userId, вместо login – userLogin, вместо salary - userSalary.
+--
+select id as user_id, login as user_login, salary as user_salary from users;
+
+-- При выборке из таблицы users создайте новое поле res, в котором будет число 3
+--
+select *, 3 as res from users;
+
+-- При выборке из таблицы users создайте новое поле res, в котором будут лежать одновременно зарплата и возраст
+--
+select *, concat('salary: ', salary, ' age: ', age) from users;
+
+-- При выборке из таблицы users создайте новое поле res,
+-- в котором будут лежать одновременно зарплата и возраст , а после возраста будут идти три знака '!'.
+--
+select *, concat('salary: ', salary, ' age: ', age, '!!!') from users;
+
+-- При выборке из таблицы users создайте новое поле res,
+-- в котором будут лежать одновременно зарплата и возраст через дефис.
+--
+select *, concat('salary: ', salary, ' - age: ', age) from users;
+
+-- При выборке из таблицы users получите первые 5 символов логина и добавьте троеточие.
+select concat(left(login, 5), '...') from users;
